@@ -1,0 +1,14 @@
+.todo_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+/* .item_check {} */
+
+.item_text {
+  flex: 2;
+  margin-left: 15px;
+}
