@@ -17,15 +17,15 @@ const TodoHeader = (props: {todos: TodoItemType[], action: any}) => {
 
   return (
     <div>
-        <h1>Todo List</h1>
-        <input
-          className="new-todo"
-          placeholder="新加代办项"
-          value={newValue}
-          onChange={onNewValueChange}
-        /> 
-        <button onClick={onAddTodo}>添加</button>
-      </div>
+      <h1>Todo List</h1>
+      <input
+        className="new-todo"
+        placeholder="新加代办项"
+        value={newValue}
+        onChange={onNewValueChange}
+      /> 
+      <button onClick={onAddTodo}>添加</button>
+    </div>
   )
 }
 
